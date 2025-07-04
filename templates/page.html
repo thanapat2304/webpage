@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CoreOne</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="#hero" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">CoreOne</h1>
+          <span>.</span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">หน้าแรก<br></a></li>
+            <li><a href="#about">เกี่ยวกับเรา</a></li>
+            <li><a href="#services">สินค้า</a></li>
+            <li><a href="#portfolio">ตัวอย่างผลงาน</a></li>
+            <li><a href="#team">ทีมผู้พัฒนา</a></li>
+            <li><a href="#contact">ติดต่อเรา</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>ยินดีต้อนรับสู่ </span><span class="accent">CoreOne</span></h2>
+            <p>ที่ CoreOne เราออกแบบและพัฒนาระบบ IoT อัจฉริยะที่เชื่อมต่ออุปกรณ์ เซ็นเซอร์ และข้อมูลแบบเรียลไทม์ ภารกิจของเราคือการช่วยให้ธุรกิจและอุตสาหกรรมสามารถใช้ประโยชน์จากเทคโนโลยีอัจฉริยะ เพื่อเพิ่มประสิทธิภาพในการดำเนินงาน ยกระดับการตัดสินใจ และขับเคลื่อนนวัตกรรมอย่างยั่งยืน</p>
+            <div class="d-flex">
+              <a href="#services" class="btn-get-started">เริ่มต้นใช้งาน</a>
+              <a class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>วิดิโอตัวอย่าง</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/IoT.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-cpu-fill"></i></div>
+                <h4 class="title"><a class="stretched-link">อุปกรณ์ IoT</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-graph-up"></i></div>
+                <h4 class="title"><a class="stretched-link">แดชบอร์ด</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-line"></i></div>
+                <h4 class="title"><a class="stretched-link">แจ้งเตือน</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-headset"></i></div>
+                <h4 class="title"><a class="stretched-link">ดูแลหลังการขาย</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>เกี่ยวกับเรา<br></h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>เราให้บริการระบบตรวจวัดอุณหภูมิแบบเรียลไทม์ด้วยอุปกรณ์ IoT</h3>
+            <img src="assets/img/about_IoT.jpg" class="img-fluid rounded-4 mb-4" alt="">
+            <p>เราคือทีมผู้เชี่ยวชาญด้านเทคโนโลยี Internet of Things (IoT) ที่มุ่งมั่นพัฒนาและให้บริการระบบตรวจวัดอุณหภูมิอัตโนมัติแบบครบวงจร เพื่อให้ธุรกิจและองค์กรของคุณสามารถควบคุมอุณหภูมิได้อย่างแม่นยำ ทันเวลา และปลอดภัย เราให้บริการ ให้เช่าอุปกรณ์ IoT วัดอุณหภูมิ ที่ติดตั้งง่าย ใช้งานสะดวก เหมาะกับทั้งธุรกิจขนาดเล็กและองค์กรขนาดใหญ่</p>
+            <p>ด้วยการเชื่อมต่อผ่านระบบอินเทอร์เน็ต ข้อมูลอุณหภูมิที่วัดได้จะถูกส่งขึ้น Server และจัดเก็บอย่างปลอดภัย สามารถเข้าถึงได้จากทุกที่ ทุกเวลา ผ่าน แดชบอร์ด Grafana ที่แสดงผลข้อมูลอย่างชัดเจน ทั้งแบบเรียลไทม์และย้อนหลัง พร้อมระบบแจ้งเตือนอุณหภูมิที่ผิดปกติผ่าน LINE โดยอัตโนมัติ ช่วยให้คุณสามารถตอบสนองต่อสถานการณ์ฉุกเฉินได้อย่างรวดเร็ว</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">จุดเด่นของบริการเรา</p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> <span>อุปกรณ์ IoT พร้อมใช้งาน ให้เช่าแบบรายเดือนหรือรายปี</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>ดูข้อมูลย้อนหลังและแบบเรียลไทม์ผ่านแดชบอร์ด</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>แจ้งเตือนอัตโนมัติเมื่ออุณหภูมิเกินหรือต่ำกว่าค่าที่กำหนด</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>เหมาะสำหรับห้องแช่, ห้อง Server, โรงงานผลิต, หรือสถานที่ที่ต้องการควบคุมอุณหภูมิ</span></li>
+              </ul>
+              <p class="fst-italic">วิสัยทัศน์ของเรา</p>
+              <p>เรามุ่งหวังที่จะเป็นส่วนหนึ่งในการช่วยให้ธุรกิจไทยสามารถก้าวสู่ยุคดิจิทัลอย่างมั่นคง ด้วยโซลูชัน IoT ที่ใช้งานง่าย ราคาคุ้มค่า และเชื่อถือได้ โดยเน้นการให้บริการที่โปร่งใส ดูแลลูกค้าอย่างใกล้ชิด และปรับแต่งระบบให้ตรงกับความต้องการของแต่ละธุรกิจ</p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/vision.jpg" class="img-fluid rounded-4" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-lg-5">
+            <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-7">
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><span>จำนวนลูกค้า</span> <strong>ที่ไว้วางใจเรา</strong></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-cpu flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><span>จำนวน</span> <strong>อุปกรณ์ IoT ที่ให้บริการ</strong></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-thermometer-half flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>อุณหภูมิที่ถูกตรวจวัดแล้วทั้งหมด</strong></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><span>เหตุการณ์แจ้งเตือน</span> <strong>ที่ช่วยป้องกันความเสียหาย</strong></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+        <img src="assets/img/bangkok.jpg" alt="">
+        <div class="content row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <a class="glightbox play-btn"></a>
+              <h3>รับชมตัวอย่างสินค้า</h3>
+              <p>เรามีตัวอย่างการติดตั้งและใช้งานจริงของอุปกรณ์ IoT วัดอุณหภูมิ เพื่อให้คุณได้เห็นภาพการทำงานของระบบแบบชัดเจน ตั้งแต่การวัดอุณหภูมิ ส่งข้อมูลแบบเรียลไทม์ ไปยังแดชบอร์ด Grafana และการแจ้งเตือนผ่าน LINE เมื่อเกิดเหตุการณ์ที่ผิดปกติ</p>
+              <a class="cta-btn" href="#portfolio">รับชมตัวอย่างสินค้า</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>สินค้าของเรา</h2>
+        <p>เราจัดจำหน่ายและให้เช่าอุปกรณ์ IoT สำหรับวัดอุณหภูมิ รองรับทุกสภาพแวดล้อม เช่น ห้องเย็น โกดัง หรือห้อง Server โดยเชื่อมต่อคลาวด์ แสดงผลแบบเรียลไทม์ผ่าน Grafana พร้อมระบบแจ้งเตือนผ่าน LINE</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-clipboard2-plus"></i>
+              </div>
+              <h3>Temperature IoT</h3>
+              <p>สำหรับผู้ที่ต้องการนำอุปกรณ์ไปพัฒนาใช้งานเอง เรามีบอร์ด IoT สำหรับวัดอุณหภูมิ ที่มาพร้อมโค้ดตัวอย่าง ใช้งานง่าย เหมาะสำหรับนักพัฒนา Maker หรือหน่วยงานที่ต้องการนำไปเชื่อมต่อระบบของตนเอง</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <h3>Temperature IoT – Full Option</h3>
+              <p>ระบบวัดอุณหภูมิ IoT แบบเต็มออฟชัน ที่รวมทุกอย่างไว้ให้ในที่เดียว ทั้งอุปกรณ์ วัดค่าจริง เชื่อมต่อกับ Server เก็บข้อมูล แสดงผลผ่านแดชบอร์ด Grafana และแจ้งเตือนเหตุการณ์ผ่าน LINE เหมาะสำหรับธุรกิจที่ต้องการ ระบบที่เสถียร ใช้งานง่าย ไม่ต้องเขียนโค้ดเอง</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-line"></i>
+              </div>
+              <h3>Temperature IoT + LINE</h3>
+              <p>ระบบ IoT สำหรับวัดอุณหภูมิพร้อมแจ้งเตือนผ่าน LINE เมื่ออุณหภูมิสูงหรือต่ำกว่าที่กำหนด เหมาะสำหรับผู้ที่ต้องการความสะดวก ไม่ต้องเปิดหน้าจอตรวจสอบ แต่สามารถรับรู้สถานะได้แบบเรียลไทม์</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-speedometer"></i>
+              </div>
+              <h3>Temperature IoT + Dashboard</h3>
+              <p>โซลูชัน IoT สำหรับวัดอุณหภูมิพร้อมแสดงผลข้อมูลผ่าน แดชบอร์ด Grafana แบบสวยงาม เหมาะสำหรับงานที่ต้องการติดตามค่าความเปลี่ยนแปลงของอุณหภูมิในระยะยาว วิเคราะห์แนวโน้ม และเก็บบันทึกย้อนหลัง</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-database-add"></i>
+              </div>
+              <h3>Temperature IoT + ฐานข้อมูล</h3>
+              <p>ระบบวัดอุณหภูมิที่ออกแบบมาเพื่อให้คุณนำข้อมูลไปใช้งานต่อได้อย่างอิสระ อุปกรณ์จะส่งค่าที่วัดได้เข้าสู่ ฐานข้อมูลกลางของเรา ซึ่งคุณสามารถเชื่อมต่อเพื่อดึงข้อมูลไปแสดงผล วิเคราะห์ หรือต่อยอดในระบบของคุณเองได้ทันที</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-motherboard"></i>
+              </div>
+              <h3>Temperature IoT (บอร์ดพร้อมใช้งานเบื้องต้น)</h3>
+              <p>บอร์ด IoT ที่เราประกอบและเชื่อมต่อฮาร์ดแวร์ให้เรียบร้อยแล้ว เหมาะสำหรับผู้ที่ต้องการนำไปต่อยอดเอง ไม่ว่าจะเขียนโค้ดเอง เชื่อมต่อฐานข้อมูลส่วนตัว หรือพัฒนาแอปพลิเคชันอื่น ๆ</p>
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ความเห็นจากผู้ใช้งานจริง</h2>
+        <p>เสียงตอบรับจากลูกค้าที่ใช้งานระบบวัดอุณหภูมิของเราในหลากหลายรูปแบบ ทั้งแบบใช้งานทั่วไป ไปจนถึงระบบที่เชื่อมต่อฐานข้อมูลและแจ้งเตือนจริงในสถานการณ์ฉุกเฉิน เรารวบรวมความคิดเห็นบางส่วนเพื่อให้คุณได้เห็นมุมมองของผู้ใช้งานจริง และเพิ่มความมั่นใจในคุณภาพของสินค้าและบริการของเรา</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/user.jpg" class="testimonial-img" alt="">
+                <h3>ห้องเย็นไก่ทอด</h3>
+                <h4>เจ้าของร้าน</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>จากเมื่อก่อนต้องค่อยมาดูเอง ตั้งแต่ใช้อันนี้ดีเลยดูที่ไหนก็ได้</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/user.jpg" class="testimonial-img" alt="">
+                <h3>เบเกอรี่ไทย</h3>
+                <h4>เจ้าของร้าน</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>ใช้ดี สะดวก สามารถเข้าไปแก้ปัญหาได้ทันเวลาก่อนที่สินค้าจะเสียหาย</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/user.jpg" class="testimonial-img" alt="">
+                <h3>เจมส์สัน</h3>
+                <h4>ผู้จัดการ</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>เอามาใช้กับห้อง Server ถือว่าโอเคเลย ชอบที่มีการแจ้งเตือนผ่านไลน์แบบเรียลไทม์จริงๆ</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/user.jpg" class="testimonial-img" alt="">
+                <h3>คุณคิม</h3>
+                <h4>เจ้าของร้านไอศกรีม</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>ถือว่าใช้งานง่ายเลย โอเคดีครับ แม่นในระดับนึงเลยเมื่อเทียบกับของตู้</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/user.jpg" class="testimonial-img" alt="">
+                <h3>จอนนี่วอคเกอร์</h3>
+                <h4>ร้านเครื่องดื่ม</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>เอาไว้ดูตอนเครื่องมีปัญหาสามารถติดต่อช่างเข้าไปดูได้เลยแบบไม่ต้องเข้าร้านเลย</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ตัวอย่างผลงาน</h2>
+        <p>เราได้มีโอกาสส่งมอบระบบวัดอุณหภูมิ IoT ให้กับลูกค้าในหลายภาคส่วน ทั้งโรงงานผลิตอาหาร ห้องเย็น คลังเก็บสินค้า และสำนักงานบริษัท โดยปรับแต่งให้เหมาะกับลักษณะงานของแต่ละองค์กร</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo1.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">บริษัทนำเข้าสินค้า</a></h4>
+                  <p>ติดตั้งที่ห้อง Frozen สาขากรุงเทพมหานคร โดยเป็นตัว Temperature IoT – Full Option</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">บริษัทนำเข้าสินค้า</a></h4>
+                  <p>ติดตั้งที่ห้อง Chill สาขากรุงเทพมหานคร โดยเป็นตัว Temperature IoT – Full Option</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo3.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">บริษัทนำเข้าสินค้า</a></h4>
+                  <p>ติดตั้งที่ห้อง Chill สาขาศรีราชา โดยเป็นตัว Temperature IoT – Full Option</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo4.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo4.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">ตัวอย่างอุปกรณ์ IoT</a></h4>
+                  <p>บอร์ดและเซนเซอร์ต่อพร้อมใช้งาน และทนทานต่อสถาพแวดล้อม</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo5.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo5.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">ตัวอย่าง Line แจ้งเตือน</a></h4>
+                  <p>การแจ้งเตือนตามเกณฑ์ที่ลูกค้ากำหนด แบบเรียลไทม์และจะแจ้งซ้ำทุก 30 นาที เมื่ออุณหภมิยังไม่กลับมาเป็นปกติ</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/demo6.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/demo6.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">ตัวอย่างแดชบอร์ดแสดงผล</a></h4>
+                  <p>แดชบอร์ดแสดงผลแบบเรียลไทม์ พร้อมกราฟย้อนหลัง ช่วยให้ติดตามและตรวจสอบข้อมูลได้สะดวก</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ทีมผู้พัฒนา</h2>
+        <p>เบื้องหลังระบบวัดอุณหภูมิ IoT ที่คุณใช้งานอยู่ คือทีมงานขนาดเล็กแต่เปี่ยมด้วยประสบการณ์ ทั้งในด้านฮาร์ดแวร์ ซอฟต์แวร์ และระบบเครือข่าย ที่ตั้งใจพัฒนาและดูแลระบบให้ตอบโจทย์ผู้ใช้งานอย่างแท้จริง</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/user.jpg" class="img-fluid" alt="">
+              <h4>ธนภัทร โสภณ</h4>
+              <span>Developer</span>
+              <div class="social">
+                <a href="https://www.facebook.com/share/1CDV5n44BL/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/user.jpg" class="img-fluid" alt="">
+              <h4>สุธีรนันท์ สุวรรณานุรักษ์</h4>
+              <span>Project Manager</span>
+              <div class="social">
+                <a href="https://www.facebook.com/share/1CDV5n44BL/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><strong>คำถามที่พบบ่อย</strong></h3>
+              <p>รวมคำถามที่ลูกค้ามักสอบถามเข้ามา พร้อมคำตอบกระชับ เข้าใจง่าย เพื่อช่วยให้คุณตัดสินใจได้อย่างมั่นใจยิ่งขึ้น</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>ต้องมีความรู้ด้าน IoT หรือเขียนโค้ดไหมถึงจะใช้งานได้?</span></h3>
+                <div class="faq-content">
+                  <p><strong>ไม่จำเป็นครับ</strong> ระบบของเราออกแบบมาให้ใช้งานง่าย พร้อมใช้งานทันทีโดยไม่ต้องเขียนโค้ดเอง</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>หากอุปกรณ์เสียหรือมีปัญหา จะได้รับการดูแลอย่างไร?</span></h3>
+                <div class="faq-content">
+                  <p>เรามีบริการรับประกัน พร้อมทีมซัพพอร์ตที่สามารถให้คำแนะนำและส่งอะไหล่เปลี่ยนได้ตามกรณี</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>ระบบแจ้งเตือนผ่าน LINE ทำงานอย่างไร?</span></h3>
+                <div class="faq-content">
+                  <p>เมื่ออุณหภูมิเกินค่าที่กำหนด ระบบจะส่งแจ้งเตือนไปยังกลุ่มหรือบัญชี LINE ที่ตั้งค่าไว้โดยอัตโนมัติ</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>สามารถดูข้อมูลย้อนหลังได้นานแค่ไหน?</span></h3>
+                <div class="faq-content">
+                  <p>โดยทั่วไปข้อมูลจะถูกจัดเก็บไว้ ไม่ต่ำกว่า 6 เดือน หรือสามารถเพิ่มระยะเวลาการเก็บได้ตามความต้องการ</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>รองรับการใช้งานผ่านมือถือหรือไม่?</span></h3>
+                <div class="faq-content">
+                  <p><strong>ใช่ครับ</strong> ทั้งแดชบอร์ดและระบบแจ้งเตือนสามารถใช้งานผ่านมือถือได้อย่างเต็มรูปแบบ</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ติดต่อเรา</h2>
+        <p>หากคุณสนใจระบบ Temperature IoT ของเรา หรือต้องการข้อมูลเพิ่มเติมเกี่ยวกับบริการและการใช้งาน สามารถติดต่อเราได้โดยตรงตามช่องทางด้านล่าง ทีมงานยินดีให้คำปรึกษาและตอบทุกข้อสงสัยครับ</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>ที่อยู่</h3>
+                  <p>ลาดพร้าว, กรุงเทพมหานคร 10230</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>เบอร์โทรศัพท์</h3>
+                  <p>0909902881</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>อีเมล</h3>
+                  <p>suteeranan.su@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-line flex-shrink-0"></i>
+                <div>
+                  <h3>LINE</h3>
+                  <p>@t.sutee</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="ชื่อ นามสกุล" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="ที่อยู่อีเมล" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="หัวข้อเรื่อง" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="8" placeholder="ข้อความ" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">ส่งข้อความ</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="#hero" class="logo d-flex align-items-center">
+            <span class="sitename">CoreOne</span>
+          </a>
+          <p>ที่ CoreOne เราพัฒนาระบบ IoT อัจฉริยะที่เชื่อมต่ออุปกรณ์และเซ็นเซอร์แบบเรียลไทม์ เพื่อช่วยให้ธุรกิจใช้เทคโนโลยีเพิ่มประสิทธิภาพ ยกระดับการตัดสินใจ และขับเคลื่อนนวัตกรรมอย่างยั่งยืน</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.facebook.com/share/1CDV5n44BL/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>เมนูเว็บไซต์</h4>
+          <ul>
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+            <li><a href="#">สินค้า</a></li>
+            <li><a href="#">ตัวอย่างสินค้า</a></li>
+            <li><a href="#">ทีมผู้พัฒนา</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>บริการของเรา</h4>
+          <ul>
+            <li><a href="#">Temperature IoT</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>ติดต่อเรา</h4>
+          <p>ลาดพร้าว</p>
+          <p>กรุงเทพมหานคร 10230</p>
+          <p>ประเทศไทย</p>
+          <p class="mt-4"><strong>โทร:</strong> <span>0909902881</span></p>
+          <p><strong>อีเมล:</strong> <span>suteeranan.su@gmail.com</span></p>
+          <p><strong>Line:</strong> <span>@t.sutee</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">CoreOne</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
