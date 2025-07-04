@@ -1,5 +1,5 @@
 # Build stage
-FROM golang:1.22-alpine AS builder
+FROM golang:1.24.4-alpine AS builder
 WORKDIR /app
 COPY go.mod go.sum ./
 RUN go mod download
@@ -13,4 +13,4 @@ COPY --from=builder /app/server ./
 COPY --from=builder /app/templates ./templates
 COPY --from=builder /app/assets ./assets
 EXPOSE 8080
-CMD ["./server"] 
+CMD ["./server"]
